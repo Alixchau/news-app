@@ -1,5 +1,5 @@
 import { categories } from "../constants"
-import fetchNews from "../utils/fetchNews.js"
+import fetchNews from "../utils/fetchNews"
 
 async function Homepage() {
   //* fetch the news data

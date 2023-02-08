@@ -3,8 +3,8 @@ const fetchNews = async (
     keywords?: string,
     isDynamic?: boolean
 ) => {
-    //GraphQL query
-
+    //query
+    const query = `http://api.mediastack.com/v1/news?access_key=${process.env.MEDIASTACK_API_KEY}languages=en&category=${category}&sort=published_desc&keywords=${keywords}`
     //Fetch fucntion with Next.js 13 caching
 
     //Sort function by images vs not images present
