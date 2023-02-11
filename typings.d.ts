@@ -23,4 +23,4 @@ type NewsResponse = {
     data: Article[];
 }
 
-type Category = "general" | "business" | "entertainment" | "health" | "science" | "sports" | "technology";
+type Category = "general" | "business" | "entertainment" | "health" | "science" | "technology";
