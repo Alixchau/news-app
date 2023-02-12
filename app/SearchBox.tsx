@@ -20,7 +20,7 @@ function SearchBox() {
               placeholder="Type to search"
               value={input}
               onChange={e=> setInput(e.target.value)}
-              className="w-full h-14 rounded-sm placeholder-gray-500 text-green-800 outline-none flex-1 bg-transparent font-semibold dark:text-gray-300 " />
+              className="w-full h-14 rounded-sm placeholder-gray-500 text-green-800 outline-none flex-1 bg-transparent font-semibold dark:text-gray-900 " />
           <button type='submit' disabled={!input} className='text-white px-5 py-2 rounded-full bg-green-800 shadow-sm disabled:bg-gray-400'>Search</button>
     </form>
   )
