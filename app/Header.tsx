@@ -26,7 +26,7 @@ function Header() {
         </div>
 
           </div>
-                           <NavLinks />
+            <NavLinks />
             <SearchBox />
     </header>
   )
