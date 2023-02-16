@@ -21,7 +21,7 @@ function ArticlePage({ searchParams }: Props) {
                   />
               )}
               <div className="px-10">
-                  <h1 className="text-4xl font-sourceserifpro capitalize pt-5 pb-2 font-bold">
+                  <h1 className="headerTitle pt-5 pb-2">
                       {article.title}
                   </h1>
               <div className="flex space-x-4 divide-x-2">
