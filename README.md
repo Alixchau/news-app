@@ -1,27 +1,23 @@
-# Next.js + Tailwind CSS Example
+# AC News Live News Application
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+### [Live Site] (https://alixchau-news-app.vercel.app/)
 
-## Deploy your own
+<img src="https://i.ibb.co/Sy21gtZ/Screenshot-2023-02-19-143610.png" alt="Screenshot-2023-02-19-143610" border="0">
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Introduction
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+AC News is a live news application using Next.js framework.
+It allows users to browse news by categories or by keywords. It also provides Dark Mode and Light Mode theme.
 
-## How to use
+Technology used
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+1. Next.js
+2. Tailwind CSS
+3. Rest API
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Setup:
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Clone the repository
+2. Set up env variable as below
+   MEDIASTACK_API_KEY=YOUR_API_KEY_TO_MEDIASTACK_API
+3. Run `npm run dev` in CLI
