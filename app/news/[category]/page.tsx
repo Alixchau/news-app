@@ -22,6 +22,6 @@ async function NewsCategory({  params:{category}}: Props) {
 export default NewsCategory
 //prebuild each category page in categories
 //while fecthNews function still keep the cache up to date
-/* export async function generateStaticParams() {
+ export async function generateStaticParams() {
   return categories.map(category=>({category:category}))
-} */
+} 

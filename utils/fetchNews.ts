@@ -21,7 +21,6 @@ const fetchNews = async (
             "Content-Type": "application/json"
         }
     })
-    console.log("query", query)
     const response = await res.json();
     //console.log("response json", response)
     //Sort function by images vs not images present
