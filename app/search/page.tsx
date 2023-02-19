@@ -1,11 +1,11 @@
 import fetchNews from "../../utils/fetchNews"
 import NewsList from "../NewsList"
-
+import { categories } from "../../constants"
 type Props = {
     searchParams?: {term:string}
 }
 async function SearchPage({searchParams}:Props) {
-  const news: NewsResponse = await fetchNews("general", searchParams?.term, true)
+  const news: NewsResponse = await fetchNews(categories.join(","), searchParams?.term, true)
 
   return (
       <div>
