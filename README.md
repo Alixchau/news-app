@@ -1,6 +1,6 @@
 # AC News Live News Application
 
-### [Live Site] (https://alixchau-news-app.vercel.app/)
+### [Live Site] ()
 
 <img src="https://i.ibb.co/Sy21gtZ/Screenshot-2023-02-19-143610.png" alt="Screenshot-2023-02-19-143610" border="0">
 
