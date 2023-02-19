@@ -21,12 +21,18 @@ function DarkModeButton() {
         <div>
           
             {currentTheme === "dark" ? (
-                <SunIcon className='h-8 w-8 cursor-pointer text-yellow-500'
-                    onClick={() => setTheme("light")} />
+             <div className='flex align-middle items-center justify-center  cursor-pointer space-x-2'  onClick={() => setTheme("light")} >    
+                <p>Light Mode</p>
+                <SunIcon className='h-5 w-5 text-yellow-500'
+                   />
+                    </div>
             ) : (
-                <MoonIcon className='h-8 w-8 cursor-pointer text-gray-900'
-                    onClick={() => setTheme("dark")
-                    } />
+                    <div className='flex align-middle items-center justify-center cursor-pointer space-x-2'  onClick={() => setTheme("dark")
+                } >
+                        <p>Dark Mode</p>
+                    <MoonIcon className='h-5 w-5 text-gray-900'
+                       />
+                    </div>
             )}
         </div>
     );
