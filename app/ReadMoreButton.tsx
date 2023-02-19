@@ -14,7 +14,7 @@ function ReadMoreButton({ article }: Props) {
     }
 
   return (
-      <button className='h-10 bg-green-800 rounded-b-lg hover:bg-green-700 dark:text-gray-900 text-center text-white font-bold cursor-pointer justify-center flex items-center'
+      <button className='h-10 bg-green-800 rounded-b-lg hover:bg-green-700 dark:text-slate-100 text-center text-white font-bold cursor-pointer justify-center flex items-center'
       onClick={handleClick} >
           Read More
     </button>
